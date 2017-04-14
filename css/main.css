@@ -811,7 +811,7 @@ button.stroke.large, .button.stroke.large {
 }
 
 button.stroke:hover, .button.stroke:hover {
-  border: 3px solid #f9a828;
+  border: 3px solid #f9a828 !important;
   color: #f9a828;
 }
 
@@ -1600,7 +1600,7 @@ header .header-logo a {
 .home-social-list li a:hover, 
 .home-social-list li a:focus, 
 .home-social-list li a:active {
-  color: #151515;
+  color: #f9a828;
 }
 
 /* scroll down */
@@ -1620,7 +1620,7 @@ header .header-logo a {
   padding-left: 9px;
 }
 .scrolldown a:hover, .scrolldown a:focus, .scrolldown a:active {
-  color: #151515 !important;
+  color: #f9a828 !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .scrolldown,
