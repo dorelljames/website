@@ -812,7 +812,8 @@ button.stroke.large, .button.stroke.large {
 
 button.stroke:hover, .button.stroke:hover {
   border: 3px solid #f9a828 !important;
-  color: #f9a828;
+  color: #f9a828 !important;
+  cursor: pointer !important;
 }
 
 button::-moz-focus-inner,
