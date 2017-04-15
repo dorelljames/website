@@ -68,11 +68,15 @@
 	------------------------------------------------------- */
 	var ssLightGallery = function() {
 
-		$('#folio-wrap').lightGallery({
+		var $sslg = $('#folio-wrap').lightGallery({
+			mode: 'lg-zoom-in-out',
 			showThumbByDefault: false,
 			hash: false,
-			selector: ".item-wrap"
+			fullScreen: false,
+			selector: ".item-wrap",
 		});
+
+
 	};
 
 
